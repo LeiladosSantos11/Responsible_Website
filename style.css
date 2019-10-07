@@ -1,0 +1,64 @@
+/* Tag Selectors */
+
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color:#DE1FA1;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: yellowgreen;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: orange;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    div {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    body {
+        background-color: papayawhip;
+    }
+}
+
+/*difault*/
+    div { 
+        margin-right: 25%;
+        margin-left: 25%;
+        background-color: blueviolet;
+    }
+
+
+
+    
+
+
